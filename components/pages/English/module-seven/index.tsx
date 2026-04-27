@@ -508,7 +508,7 @@ export const HolisticSubChapterTwo = () => {
         </p>
 
         <p className="text-xs font-normal text-black-gray-100 pt-2">
-          1.&nbsp;<span className="font-bold">Verbal Ability</span>&nbsp; refers
+          1.&nbsp;<span className="font-bold">English Verbal Ability</span>&nbsp; refers
           to the cognitive skill that enables an individual to understand,
           interpret, and use language effectively. In this assessment, it
           focuses on evaluating comprehension and the ability to manipulate
@@ -516,7 +516,7 @@ export const HolisticSubChapterTwo = () => {
           structure, and context.
         </p>
         <p className="text-xs font-normal text-black-gray-100 pt-1">
-          Students with strong verbal ability are likely to excel in fields like
+          Students with strong English Verbal Ability are likely to excel in fields like
           Creative Writing, Journalism, Teaching, and Communications, where
           reading comprehension and effective use of language are key.
         </p>
@@ -767,7 +767,7 @@ export const HolisticFourSubChapter = () => {
           Healthcare, Hospitality Management, and more.
         </p>
         <p className="text-xs font-normal text-black-gray-100 pt-2">
-          5.&nbsp; <span className="font-bold">Agricultural Interest </span>
+          5.&nbsp; <span className="font-bold">Agriculture and Environmental Interest </span>
           &nbsp;refers to an individual&apos;s natural inclination toward
           working with plants, animals, and natural resources. This interest
           includes activities such as crop cultivation, livestock management,
@@ -779,7 +779,7 @@ export const HolisticFourSubChapter = () => {
           forestry, and ecological conservation.
         </p>
         <p className="text-xs font-normal text-black-gray-100 pt-1">
-          Students with high Agricultural Interest may pursue careers in fields
+          Students with high Agriculture and Environmental Interest may pursue careers in fields
           like Agricultural Science, Agribusiness Management, Agricultural
           Engineering, Agronomy, Livestock Management, Food Science,
           Environmental Conservation, Rural Development, Agricultural Education,

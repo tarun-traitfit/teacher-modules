@@ -482,7 +482,7 @@ export const chapterOneData = {
       {
         key: "Empower Teachers as Career Counselors :",
         value:
-          "Teachers often know their students best. This program enables teachers to become skilled in career counseling. By training 15,000 teachers to be certified counselors, we aim to create a network of educators capable of offering quality career guidance.",
+          "Teachers often know their students best. This program enables teachers to become skilled in career counseling. By training the teachers to be certified counselors, we aim to create a network of educators capable of offering quality career guidance.",
       },
       {
         key: "Facilitate psychometric assessments for students :",
@@ -2326,7 +2326,7 @@ export const chapterSevenData = {
         "We examined the five personality competencies—Openness, Conscientiousness, Extraversion, Agreeableness, and Emotional Stability—offering insights into students’ work styles, behavior, and emotional responses, which are key factors in determining how they approach career decisions.",
     },
     {
-      title: "Study Skills & Habits",
+      title: "Learning Skills and Habits",
       value:
         "We covered four key areas—Competency Skills, Communication Skills, Study Skills, and Health Habits—highlighting how a student’s academic approach and habits influence their career readiness and potential for success.",
     },
@@ -2654,9 +2654,14 @@ export const chapterSevenData = {
           "The test is administered online and can be taken on desktops or laptops, making it convenient for students. It is a computer-based assessment, with questions presented in a clear and user-friendly format.",
       },
       {
+        title: "Number of Questions :",
+        value:
+          "The test consists of a total of 214 covering different sections related to the areas being assessed.",
+      },
+      {
         title: "Duration :",
         value:
-          "The entire test is timed and will take approximately __  minutes to complete.",
+          "The entire test is timed and will take approximately 120 minutes to complete.",
       },
       {
         title: "Languages Available :",
