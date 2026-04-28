@@ -2326,7 +2326,7 @@ export const chapterSevenData = {
         "We examined the five personality competencies—Openness, Conscientiousness, Extraversion, Agreeableness, and Emotional Stability—offering insights into students’ work styles, behavior, and emotional responses, which are key factors in determining how they approach career decisions.",
     },
     {
-      title: "Learning Skills and Habits",
+      title: "Study Skills & Habits",
       value:
         "We covered four key areas—Competency Skills, Communication Skills, Study Skills, and Health Habits—highlighting how a student’s academic approach and habits influence their career readiness and potential for success.",
     },
@@ -2371,7 +2371,7 @@ export const chapterSevenData = {
       "Abilities",
       "Career Interests",
       "Personality Competencies",
-      "Study Skills & Habits",
+      "Learning Skills and Habits",
     ],
 
     personalityPointData: [
