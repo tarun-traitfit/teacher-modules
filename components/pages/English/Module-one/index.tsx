@@ -19,7 +19,7 @@ const ModuleOne = () => {
         title={"TITLE "}
         pageNo={"PAGE NO."}
         tableOfContents={chapterOne}
-       projectName={"Mission Margdarshan"}
+        projectName={"Mission Margdarshan"}
       />
       <Introduction />
       <ObjectiveProgram />
@@ -42,14 +42,14 @@ export const Introduction = () => {
         </h1>
         <div className="pt-4">
           <p className="text-xs font-normal text-black-gray-100 ">
-            A warm welcome to all the aspiring career counselors of Madhya
-            Pradesh! It is an honor to be part of this transformative initiative
-            to train dedicated school teachers like you as certified career
-            counselors and provide you with the tools and knowledge required to
-            help students make informed career decisions. As teachers, you
-            already play a critical role in shaping students’ academic paths,
-            and now, this program will extend your impact into helping students
-            explore and make choices about their future careers.
+            A warm welcome to all the aspiring career counselors! It is an honor
+            to be part of this transformative initiative to train dedicated
+            school teachers like you as certified career counselors and provide
+            you with the tools and knowledge required to help students make
+            informed career decisions. As teachers, you already play a critical
+            role in shaping students’ academic paths, and now, this program will
+            extend your impact into helping students explore and make choices
+            about their future careers.
           </p>
           <p className="text-xs font-bold text-black-gray-100 pt-3">
             &quot;Don&apos;t limit a child to your own learning, for she was
@@ -91,12 +91,12 @@ export const ObjectiveProgram = () => {
           1.2 Objectives of the Program
         </h1>
         <p className="text-xs font-normal text-black-gray-100 pt-4">
-          The Teacher Training Program is part of an initiative implemented by
-          the School Education Department of the Government of Madhya Pradesh.
-          The primary objective of this program is to enhance educational
-          outcomes by focusing on foundational learning, effective assessment
-          systems, and guiding students through the important transition from
-          school to higher education or employment.
+          Through this initiative, we aim to make schools self-reliant in
+          delivering quality career guidance to students. The primary objective
+          of this program is to enhance educational outcomes by focusing on
+          foundational learning, effective assessment systems, and guiding
+          students through the important transition from school to higher
+          education or employment.
         </p>
         <div className="pt-4">
           <p className="text-xs font-normal text-black-gray-100">
@@ -113,10 +113,9 @@ export const ObjectiveProgram = () => {
             </ul>
           ))}
           <p className="text-xs font-normal text-black-gray-100 pt-4">
-            This program seeks to make government schools in Madhya Pradesh
-            self-sufficient in providing quality career guidance, ensuring that
-            students have the support they need to make informed decisions about
-            their future.
+            This program seeks to make schools self-sufficient in providing
+            quality career guidance, ensuring that students have the support
+            they need to make informed decisions about their future.
           </p>
           <p className="text-xs font-normal text-black-gray-100 pt-4">
             Having understood the key objectives of the program, let&apos;s now
@@ -257,7 +256,7 @@ export const CertifiedCareerCounselor = () => {
                   </p>
                 </li>
               </ul>
-            )
+            ),
           )}
           <p className="text-xs font-normal text-black-gray-100">
             This program is more than just an opportunity to become a certified

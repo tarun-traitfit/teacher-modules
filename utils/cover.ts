@@ -46,7 +46,7 @@ export const chapterOne = [
     ],
   },
   {
-    title: "1.6 Conclusionr",
+    title: "1.6 Conclusion",
     page: 7,
   },
 ];
@@ -2326,9 +2326,9 @@ export const chapterSevenData = {
         "We examined the five personality competencies—Openness, Conscientiousness, Extraversion, Agreeableness, and Emotional Stability—offering insights into students’ work styles, behavior, and emotional responses, which are key factors in determining how they approach career decisions.",
     },
     {
-      title: "Study Skills & Habits",
+      title: "Learning Skills & Habits",
       value:
-        "We covered four key areas—Competency Skills, Communication Skills, Study Skills, and Health Habits—highlighting how a student’s academic approach and habits influence their career readiness and potential for success.",
+        "We covered three key areas—Study Skills, Growth Skills and Health Habits—highlighting how a student’s academic approach and habits influence their career readiness and potential for success.",
     },
   ],
 
@@ -2366,7 +2366,7 @@ export const chapterSevenData = {
 
   introductionCareerGuidance: {
     hading:
-      "When guiding a student toward a suitable career path, it is important to consider various aspects of their capabilities and personality. The WhizQiz Career Guidance Test is designed with this in mind, assessing four key areas that are essential in making an informed career choice: ",
+      "When guiding a student toward a suitable career path, it is important to consider various aspects of their capabilities and personality. The Career Guidance Test is designed with this in mind, assessing four key areas that are essential in making an informed career choice: ",
     introductionCareerPoints: [
       "Abilities",
       "Career Interests",
@@ -2453,73 +2453,42 @@ export const chapterSevenData = {
 
     studySkillsPoints: [
       {
-        key: "Competency Skills : ",
+        key: "Study Skills: ",
         value: {
-          description:
-            "Competency skills refer to the foundational abilities that allow individuals to efficiently manage tasks, set and achieve goals, and stay motivated in their academic and other important endeavors. These skills are essential for overall growth and overall. Competency skills help students develop the internal drive and structured approach necessary to perform well in their careers. There are 3 competencies assessed under this category: Time Management, Self-Discipline, and Intrinsic Motivation. ",
-          subCategory: [
-            {
-              key: "Time Management :",
-              value:
-                "Time management involves the efficient use of time and resources, which includes setting clear goals, planning, and scheduling tasks to meet deadlines. By organizing their time, students can prioritize important tasks and avoid procrastination.",
-            },
-            {
-              key: "Example :",
-              value:
-                "A student who uses a planner to organize their study schedule, ensuring they allocate time for homework, revision, and relaxation, is demonstrating effective time management.",
-            },
-            {
-              key: "Self-Discipline :",
-              value:
-                "Self-discipline involves taking responsibility, being persistent, and practicing self-regulation while doing the assigned tasks and responsibilities. It allows students to stay focused and committed to their goals, even when faced with distractions or challenges.",
-            },
-            {
-              key: "Example :",
-              value:
-                "A student who consistently completes assignments on time, even when not supervised, and continues working toward their long-term goals despite setbacks, exhibits strong self-discipline.",
-            },
-            {
-              key: "Intrinsic Motivation :",
-              value:
-                "Intrinsic motivation refers to the inner satisfaction or personal drive that comes from engaging in a task for its own sake, rather than for external rewards. It fuels a student’s passion and persistence in pursuing academic and professional goals.",
-            },
-            {
-              key: "Example :",
-              value:
-                " A student who works on a challenging project simply because they enjoy learning about the subject, rather than for a grade or praise, is motivated intrinsically.",
-            },
+          description: [
+            "Study Skills refer to the habits, strategies, and techniques that enable individuals to learn efficiently and retain information over the long term. They encompass how a student structures their study time, prepares for assessments, and seeks out the tools and support they need to succeed. Good study skills create a strong foundation for academic achievement by promoting organization, focus, and adaptability in learning.",
+            "Students with strong study skills tend to be proactive in their learning, follow a consistent routine, and take responsibility for staying prepared. They know how to break down large tasks into smaller steps, use available resources wisely, and approach examinations in a systematic way that reduces anxiety and boosts performance. There are 3 competencies assessed under this category: Regular Studies, Exam Preparation, Use of Resources.",
           ],
-        },
-      },
-      {
-        key: "Interpersonal Skills :",
-        value: {
-          description:
-            "Interpersonal Skills refer to the abilities that allow individuals to interact and communicate effectively with others. These skills are crucial for building strong relationships, working collaboratively, and navigating social and professional environments. Strong interpersonal skills enhance a student’s ability to express their ideas clearly, listen actively, and collaborate with peers toward common goals, making them valuable both in academic settings and in future career paths. The two competencies assessed under this category are Communication skills and Collaboration skills.",
           subCategory: [
             {
-              key: "Communication Skills :",
-              value: [
-                "Communication skills involve the ability to effectively exchange information, express ideas clearly, and listen actively. These skills are essential for ensuring that messages are understood and that individuals can engage in meaningful conversations, whether in group discussions, presentations, or one-on-one interactions.",
-              ],
+              key: "Regular Studies :",
+              value:
+                "Regular studies refer to a person’s consistent involvement in learning activities, where they dedicate specific times to acquire knowledge or skills. This approach ensures steady progress, deeper understanding, and long-term retention of information.",
             },
             {
               key: "Example :",
-              value: [
-                "A student who listens attentively during a class discussion and expresses their ideas in a clear and organized manner demonstrates strong communication skills, which help them engage effectively with others.",
-              ],
+              value:
+                " A student who reviews class notes every evening, completes assignments on time, and consistently keeps pace with the syllabus demonstrates strong regular study habits that prevent last-minute cramming.",
             },
             {
-              key: "Collaboration Skills :",
-              value: [
-                "Collaboration skills refer to the ability to work well with others in a team, sharing ideas, resources, and responsibilities to achieve common goals. These skills are crucial for productive teamwork, as they promote cooperation, respect, and mutual support among team members.",
-              ],
+              key: "Exam Preparation:",
+              value:
+                "Exam preparation refers to an individual's approach to getting ready for exams to achieve good performance. It includes setting up a study schedule, regularly reviewing learned material, and applying effective techniques to reinforce understanding and reduce stress.",
             },
             {
               key: "Example :",
-              value: [
-                "A student who actively contributes to group projects by sharing their ideas, offering help to peers, and ensuring that tasks are completed collectively demonstrates strong collaboration skills, which are essential for working effectively in team-oriented environments.",
-              ],
+              value:
+                "A student who revises topics weekly, practices past exam papers, and creates summary notes well before the test date shows effective exam preparation skills that boost both confidence and performance.",
+            },
+            {
+              key: "Use of Resources :",
+              value:
+                "Use of resources is one’s ability to recognize the available academic tools and support systems, and to use them appropriately when needed. These may include textbooks, online materials, libraries, peer discussions, or teacher guidance.",
+            },
+            {
+              key: "Example :",
+              value:
+                "A student who seeks clarification from a teacher, consults reference books, and participates in study groups when facing difficulties is demonstrating effective use of resources to enhance learning.",
             },
           ],
         },
@@ -2528,117 +2497,98 @@ export const chapterSevenData = {
 
     studySkillsSubPoints: [
       {
-        key: "Note-taking Skills :",
-        value:
-          "Note-taking skill refers to the practice of capturing the main ideas of a topic in one’s own words. This skill helps students remember and understand concepts more effectively, make connections between ideas, and recall important points with ease.",
-      },
-      {
-        key: "Example :",
-        value:
-          "A student who actively listens during a lecture and writes down the essential points in their own words, rather than copying everything as dictated, is engaging in effective note-taking, which enhances their understanding and retention of the material.",
-      },
-      {
-        key: "Learning Attitude :",
-        value:
-          "A learning attitude refers to an individual's approach to acquiring new knowledge and skills. It encompasses openness to learning, curiosity about exploring new information, and a willingness to learn from one’s mistakes. This approach encourages continuous improvement and a proactive engagement with new challenges.",
-      },
-      {
-        key: "Example :",
-        value:
-          "A student who actively seeks answers to questions, explores topics in-depth, and views mistakes as valuable lessons demonstrate a strong learning attitude.",
-      },
-      {
-        key: "Exam Preparation :",
-        value:
-          "Exam preparation refers to an individual's approach to getting ready for exams to achieve good performance. It includes setting up a study schedule, regularly reviewing learned material, and applying effective study techniques to reinforce understanding and retention. This structured approach helps students build confidence and reduces last-minute stress.",
-      },
-      {
-        key: "Example :",
-        value:
-          "A student who reviews notes regularly, practices past papers, and organizes study sessions well in advance shows effective exam preparation skills.",
-      },
-      {
-        key: "Exam Writing :",
-        value:
-          "Exam writing refers to an individual's approach to answering exam questions. It includes how they think through the answers and manage stress during exam time, including how they structure their responses and manage time. It also involves thinking critically, organizing thoughts clearly, and staying calm under pressure to ensure accurate and coherent answers.",
-      },
-      {
-        key: "Example :",
-        value:
-          "A student who carefully plans their responses, remains composed during the exam, and effectively manages their time to answer all questions demonstrates strong exam writing skills.",
-      },
-      {
-        key: "Regular Studies :",
-        value:
-          "Regular studies refer to a person’s consistent involvement in learning activities, where they dedicate specific times to acquire knowledge or skills. By setting aside regular intervals for reading, attending classes, and reviewing material, individuals can make steady progress and build a deeper understanding of the subjects over time. This steady approach not only reinforces comprehension but also aids in long-term information retention.",
-      },
-      {
-        key: "Example :",
-        value:
-          "A student who reviews weekly class materials and stays up-to-date with assignments is practicing regular study habits.",
-      },
-      {
-        key: "Academic Stress :",
-        value:
-          "Academic Stress refers to an individual's psychological strain that they experience due to the pressures of their educational activities. It includes stress from challenging coursework, high expectations, tight deadlines, and competitive environments. Effectively managing this stress is key to maintaining well-being and academic focus.",
-      },
-      {
-        key: "Example :",
-        value:
-          "A student who has multiple projects due in the same week may feel overwhelmed, leading to stress. This stress can cause anxiety, lack of sleep, or difficulty focusing on tasks.",
+        key: "Growth Skills: ",
+        value: {
+          description: [
+            "Growth Skills are personal and interpersonal abilities that support continuous learning and self-improvement. They determine how well an individual manages their time, stays driven, maintains a positive approach to learning, focuses on tasks, and works with others. These skills are not only essential in academic contexts but also critical in adapting to workplace demands and life challenges.",
+            "Students with well-developed growth skills are often self-starters who can sustain effort over the long term, adjust their strategies when faced with difficulties, and build positive relationships that support their learning. They are able to manage multiple priorities, remain engaged in the face of setbacks, and contribute productively in collaborative settings. There are 5 competencies assessed under this category: Time Management, Self-Motivation, Learning Attitude, Concentration, Interpersonal Skills.",
+          ],
+          subCategory: [
+            {
+              key: "Time Management :",
+              value: [
+                "Time management involves the efficient use of time and resources by setting clear goals, planning, and scheduling tasks to meet deadlines. This skill helps individuals prioritize work, avoid procrastination, and balance academic, personal, and leisure activities.",
+              ],
+            },
+            {
+              key: "Example :",
+              value: [
+                "A student who uses a calendar to plan study hours, extracurricular activities, and relaxation time demonstrates effective time management that reduces stress and increases productivity.",
+              ],
+            },
+            {
+              key: "Self-Motivation :",
+              value: [
+                "Self-motivation is the ability to take action and stay committed to goals because of personal drive rather than external pressure. It reflects a willingness to persist through challenges and work toward long-term success.",
+              ],
+            },
+            {
+              key: "Example :",
+              value: [
+                "A student who continues practicing a difficult math concept daily until they understand it — without being reminded by a teacher or parent — is showing strong self-motivation.",
+              ],
+            },
+            {
+              key: "Learning Attitude :",
+              value: [
+                "A learning attitude refers to an individual's openness to acquiring new knowledge, curiosity about exploring new topics, and readiness to learn from mistakes. It encourages continuous self-improvement and adaptability.",
+              ],
+            },
+            {
+              key: "Example :",
+              value: [
+                "A student who eagerly takes on extra reading beyond the syllabus and views incorrect answers as opportunities to learn displays a positive learning attitude.",
+              ],
+            },
+            {
+              key: "Concentration :",
+              value: [
+                "Concentration is one’s ability to focus all attention on a task without getting distracted by the surrounding environment. Strong concentration improves the quality and efficiency of learning.",
+              ],
+            },
+            {
+              key: "Example :",
+              value: [
+                "A student who studies in a quiet space, silences their phone, and completes assignments without checking social media shows effective concentration skills.",
+              ],
+            },
+            {
+              key: "Interpersonal Skills :",
+              value: [
+                "Interpersonal skills refer to the ability to communicate effectively, build positive relationships, and work well with others. They are essential for collaboration, conflict resolution, and teamwork in both academic and professional contexts.",
+              ],
+            },
+            {
+              key: "Example :",
+              value: [
+                " A student who listens attentively in group discussions, respects others’ opinions, and contributes constructive ideas demonstrates strong interpersonal skills that support cooperative learning.",
+              ],
+            },
+          ],
+        },
       },
     ],
 
     healthHabits: [
       {
-        title: "Mindful Eating :",
-        value:
-          "Mindful eating involves being fully aware of the food you consume and how it affects your body. It focuses on paying attention to hunger cues, eating without distractions, and choosing a balanced diet that contributes to long-term health. Practicing mindful eating helps individuals make healthier food choices, ensuring that meals are nourishing and aligned with their overall well-being. This approach helps them enjoy their food and make healthier choices, leading to better physical and mental health.",
-      },
-      {
-        title: "Example :",
-        value:
-          "A student who takes their time to eat, pays attention to when they feel hungry or full and avoids using their phone while eating is practicing mindful eating. This helps them make healthier food choices and stay focused during classes and study time.",
-      },
-      {
-        title: "Maintaining Sleep Schedule :",
-        value:
-          "Mindful eating involves being fully aware of the food you consume and how it affects your body. It focuses on paying attention to hunger cues, eating without distractions, and choosing a balanced diet that contributes to long-term health. Practicing mindful eating helps individuals make healthier food choices, ensuring that meals are nourishing and aligned with their overall well-being. This approach helps them enjoy their food and make healthier choices, leading to better physical and mental health.",
-      },
-      {
-        title: "Example :",
-        value:
-          "A student who goes to bed at the same time each night, avoids staying up late, and wakes up at a consistent time every morning is maintaining a healthy sleep schedule, ensuring they stay alert and focused during their school day.",
-      },
-      {
         title: "Stress Management :",
         value:
-          "Stress Management refers to the ability to identify sources of stress and use healthy coping strategies to deal with them. It involves recognizing stress triggers, being adaptable to changes, and managing emotions effectively, which is essential for maintaining a balanced life and academic success.",
+          "Stress management refers to the ability to identify sources of stress and use healthy coping strategies to handle them. This skill helps maintain focus, emotional balance, and resilience in challenging situations.",
       },
       {
         title: "Example :",
         value:
-          "A student who notices when they’re getting overwhelmed by upcoming exams and takes steps to manage their stress—like practicing deep breathing, taking breaks, or organizing their tasks—demonstrates effective stress management skills.",
+          " A student who feels anxious before a presentation but uses deep breathing and positive self-talk to stay calm is demonstrating effective stress management.",
       },
       {
-        title: "Physical Activity :",
+        title: "Self-Care:",
         value:
-          "Physical activity refers to an individual's approach toward engaging in fitness activities to keep the body healthy and strong. It includes engagement in regular exercise/ activities such as walking, playing sports, etc.",
-      },
-      {
-        title: "Example :",
-        value:
-          "A student who plays a sport after school, takes regular walks, or participates in fitness classes demonstrates a commitment to physical activity that boosts both physical health and mental clarity, helping them stay focused during studies.",
-      },
-      {
-        title: "Hygiene :",
-        value:
-          "Hygiene refers to the set of routines and practices that individuals follow to maintain cleanliness and prevent the spread of illness. This includes habits like washing hands, brushing teeth, bathing regularly, and keeping personal spaces clean, all of which play a crucial role in overall health.",
+          "Self-care refers to maintaining healthy routines such as eating mindfully and following a regular sleep schedule to support the body’s rest, energy, and overall well-being. These habits promote sustained concentration, mood stability, and physical health.",
       },
       {
         title: "Example :",
         value:
-          "A student who consistently washes their hands before meals, brushes their teeth twice a day, and keeps their study area tidy demonstrates good hygiene habits, which help reduce the risk of illness and contribute to a healthier, more productive lifestyle.",
+          " A student who eats balanced meals, avoids late-night study sessions before important classes, and gets enough rest to feel energized in the morning is practicing effective self-care.",
       },
     ],
 
@@ -2666,7 +2616,7 @@ export const chapterSevenData = {
       {
         title: "Languages Available :",
         value:
-          "The CGT is available in both English and Hindi, ensuring accessibility for a diverse range of students.",
+          "The CGT is available in three languages English, Hindi and Marathi, ensuring accessibility for a diverse range of students.",
       },
     ],
 
@@ -2682,9 +2632,9 @@ export const chapterSevenData = {
           "For each job recommendation, the report lists relevant courses the student should consider pursuing. Along with this, it provides a list of top institutes offering these programs, including their locations and eligibility criteria. This will help the student take actionable steps toward further education aligned with their career goals.",
       },
       {
-        title: "Insights About Study Skills and Habits :",
+        title: "Insights About Learning Skills and Habits :",
         value:
-          "This section of the report provides an overview of the student’s study habits and skills. It highlights areas of strength and identifies aspects that may need improvement to enhance academic performance and preparation. These insights offer practical ways for students to develop effective study habits.",
+          "This section of the report provides an overview of the student’s learning skills and habits. It highlights areas of strength and identifies aspects that may need improvement to enhance academic performance and preparation. These insights offer practical ways for students to develop effective study habits.",
       },
       {
         title: "Personalized Tips and Guidance for Each Competency :",
